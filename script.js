@@ -82,19 +82,19 @@ if(numberA){
 //https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
 
 //Randomly select chracters
-randomIndex='';
+var randomIndex='';
  //validate the input
 for(var i= 0; i < passwordLength; i++){
- var randomIndex = characterset[Math.floor(Math.random()*characterset.length)];
-
+ randomIndex += characterset[Math.floor(Math.random()*characterset.length)];
+}
 
 // What sort of tasks dose my code need to complete
   
   console.log(randomIndex);
  //Display password to page
- alert(randomIndex);
+
  
-}
+
 //Generate password base on criteria
 
  //Display password to page
